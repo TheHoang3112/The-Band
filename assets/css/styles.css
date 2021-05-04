@@ -68,7 +68,6 @@ html {
     background-color: #000;
     height: 46px;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -132,11 +131,13 @@ html {
     padding: 0 21px;
 }
 
-#header .mobile-menu-btn,
 #header .mobile-menu-btn {
     color: #fff;
     line-height: 46px;
-    font-size: 12px;   
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;   
 }
 
 .search-btn:hover {

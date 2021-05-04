@@ -113,8 +113,16 @@ html {
     padding: 0 12px;
 }
 /* Search-btn */
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
+    padding: 0 21px;
+}
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header .search-btn:hover {
@@ -122,10 +130,16 @@ html {
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#header .mobile-menu-btn,
 #header .search-icon {
     color: #fff;
     line-height: 46px;
-    padding: 0 30px;
     font-size: 14px;
 }
 /* Slider */
