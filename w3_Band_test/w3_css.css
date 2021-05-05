@@ -320,6 +320,13 @@ html {
     width: 30px;
     display: inline-block;
 }
+.contact-content .contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+.contact-content .contact-info a:hover {
+    opacity: 1;
+}
 /* Contact - form */
 .contact-content .contact-form {
 

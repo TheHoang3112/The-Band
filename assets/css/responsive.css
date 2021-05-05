@@ -4,6 +4,32 @@
         display: none;
     }
 }
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .places-list .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .socials-list {
+        font-size: 30px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
 /* Tablet */
 @media (min-width: 740px) and (max-width : 1023px) {
     #header .mobile-menu-btn {
@@ -62,7 +88,7 @@
     }
 
     .contact-form {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 
     .places-list .place-buy-btn {

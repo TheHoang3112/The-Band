@@ -4,6 +4,34 @@
         display: none;
     }
 }
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    #content .place-buy-btn {
+        padding: 15px 16px;
+    }
+    .contact-content .contact-info {
+        line-height: 2;
+    }
+    .contact-content .form-control {
+        padding: 15px;
+    }
+    .contact-content .form-submit-btn {
+        padding: 15px 16px;
+    }
+
+    #footer .socials-list {
+        font-size: 30px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
 /* Tablet */
 @media (min-width: 740px) and (max-width : 1023px) {
     #header .mobile-menu-btn {
